@@ -1,7 +1,7 @@
-package open.api.coc.clans.database.repository.player;
+package com.aca.coc.clans.db.repository.player;
 
-import open.api.coc.clans.database.entity.player.PlayerHeroEntity;
-import open.api.coc.clans.database.entity.player.common.PlayerItemPKEntity;
+import com.aca.coc.clans.db.entity.player.PlayerHeroEntity;
+import com.aca.coc.clans.db.entity.player.common.PlayerItemPKEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

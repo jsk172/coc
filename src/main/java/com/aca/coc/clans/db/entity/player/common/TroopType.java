@@ -1,4 +1,4 @@
-package open.api.coc.clans.database.entity.player.common;
+package com.aca.coc.clans.db.entity.player.common;
 
 import lombok.Getter;
 

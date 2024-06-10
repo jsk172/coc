@@ -1,6 +1,6 @@
 package com.aca.coc.clans.common;
 
-import static open.api.coc.clans.common.exception.handler.ExceptionHandler.createNotFoundException;
+import static com.aca.coc.clans.common.exception.handler.ExceptionHandler.createNotFoundException;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,11 +1,11 @@
-package open.api.coc.clans.database.entity.player.converter;
+package com.aca.coc.clans.db.entity.player.converter;
 
-import open.api.coc.clans.database.entity.common.YnType;
-import open.api.coc.clans.database.entity.player.PlayerHeroEquipmentEntity;
-import open.api.coc.clans.database.entity.player.common.PlayerItemEntity;
-import open.api.coc.clans.database.entity.player.common.PlayerItemPKEntity;
-import open.api.coc.external.coc.clan.domain.common.HeroEquipment;
-import open.api.coc.external.coc.config.HeroEquipmentConfig;
+import com.aca.coc.clans.db.entity.common.YnType;
+import com.aca.coc.clans.db.entity.player.PlayerHeroEquipmentEntity;
+import com.aca.coc.clans.db.entity.player.common.PlayerItemEntity;
+import com.aca.coc.clans.db.entity.player.common.PlayerItemPKEntity;
+import com.aca.coc.external.coc.clan.domain.common.HeroEquipment;
+import com.aca.coc.external.coc.config.HeroEquipmentConfig;
 import org.springframework.stereotype.Component;
 
 @Component

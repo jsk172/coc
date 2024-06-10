@@ -1,8 +1,8 @@
 package com.aca.coc.clans.controller;
 
 import lombok.RequiredArgsConstructor;
-import open.api.coc.clans.domain.players.PlayerResponse;
-import open.api.coc.clans.service.PlayersService;
+import com.aca.coc.clans.domain.players.PlayerResponse;
+import com.aca.coc.clans.service.PlayersService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

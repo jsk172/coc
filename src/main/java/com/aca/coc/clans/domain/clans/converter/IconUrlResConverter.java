@@ -1,7 +1,7 @@
-package open.api.coc.clans.domain.clans.converter;
+package com.aca.coc.clans.domain.clans.converter;
 
-import open.api.coc.clans.domain.clans.IconUrlRes;
-import open.api.coc.external.coc.clan.domain.clan.IconUrl;
+import com.aca.coc.clans.domain.clans.IconUrlRes;
+import com.aca.coc.external.coc.clan.domain.clan.IconUrl;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
 

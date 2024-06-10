@@ -1,8 +1,8 @@
-package open.api.coc.clans.database.repository.player;
+package com.aca.coc.clans.db.repository.player;
 
 import java.util.List;
-import open.api.coc.clans.database.entity.common.YnType;
-import open.api.coc.clans.database.entity.player.PlayerEntity;
+import com.aca.coc.clans.db.entity.common.YnType;
+import com.aca.coc.clans.db.entity.player.PlayerEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

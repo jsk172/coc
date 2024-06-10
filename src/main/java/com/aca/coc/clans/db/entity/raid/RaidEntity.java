@@ -1,4 +1,4 @@
-package open.api.coc.clans.database.entity.raid;
+package com.aca.coc.clans.db.entity.raid;
 
 import jakarta.persistence.*;
 import lombok.Builder;
@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 
 import java.time.LocalDate;
 import java.util.List;
-import open.api.coc.clans.database.entity.clan.ClanEntity;
+import com.aca.coc.clans.db.entity.clan.ClanEntity;
 
 @Table(name = "TB_RAID")
 @Entity

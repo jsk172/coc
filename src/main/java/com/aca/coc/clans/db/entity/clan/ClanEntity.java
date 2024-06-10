@@ -1,4 +1,4 @@
-package open.api.coc.clans.database.entity.clan;
+package com.aca.coc.clans.db.entity.clan;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
@@ -21,8 +21,8 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import open.api.coc.clans.database.entity.common.YnType;
-import open.api.coc.clans.database.entity.player.PlayerEntity;
+import com.aca.coc.clans.db.entity.common.YnType;
+import com.aca.coc.clans.db.entity.player.PlayerEntity;
 import org.springframework.data.domain.Persistable;
 
 @Builder

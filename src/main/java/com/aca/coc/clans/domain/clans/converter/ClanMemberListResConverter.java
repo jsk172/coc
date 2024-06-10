@@ -1,9 +1,9 @@
-package open.api.coc.clans.domain.clans.converter;
+package com.aca.coc.clans.domain.clans.converter;
 
 import java.util.stream.Collectors;
 import lombok.RequiredArgsConstructor;
-import open.api.coc.clans.domain.clans.ClanMemberListRes;
-import open.api.coc.external.coc.clan.domain.clan.ClanMemberList;
+import com.aca.coc.clans.domain.clans.ClanMemberListRes;
+import com.aca.coc.external.coc.clan.domain.clan.ClanMemberList;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
 import org.springframework.util.CollectionUtils;

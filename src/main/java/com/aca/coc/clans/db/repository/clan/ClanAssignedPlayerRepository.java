@@ -1,8 +1,8 @@
-package open.api.coc.clans.database.repository.clan;
+package com.aca.coc.clans.db.repository.clan;
 
 import java.util.List;
-import open.api.coc.clans.database.entity.clan.ClanAssignedPlayerEntity;
-import open.api.coc.clans.database.entity.clan.ClanAssignedPlayerPKEntity;
+import com.aca.coc.clans.db.entity.clan.ClanAssignedPlayerEntity;
+import com.aca.coc.clans.db.entity.clan.ClanAssignedPlayerPKEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;

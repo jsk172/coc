@@ -1,4 +1,4 @@
-package open.api.coc.external.coc.config;
+package com.aca.coc.external.coc.config;
 
 
 import lombok.Getter;

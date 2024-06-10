@@ -1,9 +1,9 @@
-package open.api.coc.clans.database.entity.player.converter;
+package com.aca.coc.clans.db.entity.player.converter;
 
-import open.api.coc.clans.database.entity.player.PlayerHeroEntity;
-import open.api.coc.clans.database.entity.player.common.PlayerItemEntity;
-import open.api.coc.clans.database.entity.player.common.PlayerItemPKEntity;
-import open.api.coc.external.coc.clan.domain.common.Hero;
+import com.aca.coc.clans.db.entity.player.PlayerHeroEntity;
+import com.aca.coc.clans.db.entity.player.common.PlayerItemEntity;
+import com.aca.coc.clans.db.entity.player.common.PlayerItemPKEntity;
+import com.aca.coc.external.coc.clan.domain.common.Hero;
 import org.springframework.stereotype.Component;
 
 @Component

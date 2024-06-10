@@ -1,6 +1,6 @@
-package open.api.coc.clans.database.repository.common;
+package com.aca.coc.clans.db.repository.common;
 
-import open.api.coc.clans.database.entity.league.LeagueEntity;
+import com.aca.coc.clans.db.entity.league.LeagueEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

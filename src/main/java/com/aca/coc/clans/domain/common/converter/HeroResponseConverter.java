@@ -1,14 +1,14 @@
-package open.api.coc.clans.domain.common.converter;
+package com.aca.coc.clans.domain.common.converter;
 
 import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 import lombok.RequiredArgsConstructor;
-import open.api.coc.clans.domain.common.HeroEquipmentResponse;
-import open.api.coc.clans.domain.common.HeroResponse;
-import open.api.coc.external.coc.clan.domain.common.Hero;
-import open.api.coc.external.coc.clan.domain.common.HeroEquipment;
-import open.api.coc.external.coc.config.HeroConfig;
+import com.aca.coc.clans.domain.common.HeroEquipmentResponse;
+import com.aca.coc.clans.domain.common.HeroResponse;
+import com.aca.coc.external.coc.clan.domain.common.Hero;
+import com.aca.coc.external.coc.clan.domain.common.HeroEquipment;
+import com.aca.coc.external.coc.config.HeroConfig;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
 import org.springframework.util.CollectionUtils;

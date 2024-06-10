@@ -1,10 +1,10 @@
-package open.api.coc.clans.domain.clans;
+package com.aca.coc.clans.domain.clans;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import open.api.coc.clans.common.Clan;
+import com.aca.coc.clans.common.Clan;
 
 @Getter
 @Builder

@@ -1,14 +1,14 @@
-package open.api.coc.clans.database.entity.raid.converter;
+package com.aca.coc.clans.db.entity.raid.converter;
 
 import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 import lombok.RequiredArgsConstructor;
-import open.api.coc.clans.database.entity.raid.RaidEntity;
-import open.api.coc.clans.database.entity.raid.RaiderEntity;
-import open.api.coc.clans.domain.raid.ClanCapitalRaidSeasonMemberResponse;
-import open.api.coc.clans.domain.raid.ClanCapitalRaidSeasonResponse;
-import open.api.coc.clans.domain.clans.converter.TimeConverter;
+import com.aca.coc.clans.db.entity.raid.RaidEntity;
+import com.aca.coc.clans.db.entity.raid.RaiderEntity;
+import com.aca.coc.clans.domain.raid.ClanCapitalRaidSeasonMemberResponse;
+import com.aca.coc.clans.domain.raid.ClanCapitalRaidSeasonResponse;
+import com.aca.coc.clans.domain.clans.converter.TimeConverter;
 import org.springframework.stereotype.Component;
 import org.springframework.util.CollectionUtils;
 

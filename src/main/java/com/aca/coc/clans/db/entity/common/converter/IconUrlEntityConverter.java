@@ -1,7 +1,7 @@
-package open.api.coc.clans.database.entity.common.converter;
+package com.aca.coc.clans.db.entity.common.converter;
 
-import open.api.coc.clans.database.entity.common.IconUrlEntity;
-import open.api.coc.external.coc.clan.domain.common.IconUrl;
+import com.aca.coc.clans.db.entity.common.IconUrlEntity;
+import com.aca.coc.external.coc.clan.domain.common.IconUrl;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
 

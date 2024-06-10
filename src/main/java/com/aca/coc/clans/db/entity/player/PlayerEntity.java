@@ -1,4 +1,4 @@
-package open.api.coc.clans.database.entity.player;
+package com.aca.coc.clans.db.entity.player;
 
 import static jakarta.persistence.FetchType.LAZY;
 
@@ -25,11 +25,11 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import open.api.coc.clans.database.entity.clan.ClanEntity;
-import open.api.coc.clans.database.entity.common.BaseEntity;
-import open.api.coc.clans.database.entity.common.YnType;
-import open.api.coc.clans.database.entity.league.LeagueEntity;
-import open.api.coc.clans.database.entity.player.common.WarPreferenceType;
+import com.aca.coc.clans.db.entity.clan.ClanEntity;
+import com.aca.coc.clans.db.entity.common.BaseEntity;
+import com.aca.coc.clans.db.entity.common.YnType;
+import com.aca.coc.clans.db.entity.league.LeagueEntity;
+import com.aca.coc.clans.db.entity.player.common.WarPreferenceType;
 import org.springframework.data.domain.Persistable;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 

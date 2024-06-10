@@ -1,9 +1,9 @@
-package open.api.coc.clans.database.entity.league.converter;
+package com.aca.coc.clans.db.entity.league.converter;
 
 import lombok.RequiredArgsConstructor;
-import open.api.coc.clans.database.entity.common.converter.IconUrlEntityConverter;
-import open.api.coc.clans.database.entity.league.LeagueEntity;
-import open.api.coc.external.coc.clan.domain.common.Label;
+import com.aca.coc.clans.db.entity.common.converter.IconUrlEntityConverter;
+import com.aca.coc.clans.db.entity.league.LeagueEntity;
+import com.aca.coc.external.coc.clan.domain.common.Label;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.lang.NonNull;
 import org.springframework.stereotype.Component;

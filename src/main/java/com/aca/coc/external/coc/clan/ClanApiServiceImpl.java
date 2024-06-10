@@ -1,19 +1,19 @@
-package open.api.coc.external.coc.clan;
+package com.aca.coc.external.coc.clan;
 
 import java.util.Map;
 import java.util.Optional;
 import lombok.RequiredArgsConstructor;
-import open.api.coc.external.coc.clan.domain.capital.ClanCapitalRaidSeasons;
-import open.api.coc.external.coc.clan.domain.clan.ClanMemberList;
-import open.api.coc.external.coc.clan.domain.clan.ClanWar;
-import open.api.coc.external.coc.clan.domain.player.Player;
-import open.api.coc.external.coc.config.ClashOfClanConfig;
+import com.aca.coc.external.coc.clan.domain.capital.ClanCapitalRaidSeasons;
+import com.aca.coc.external.coc.clan.domain.clan.ClanMemberList;
+import com.aca.coc.external.coc.clan.domain.clan.ClanWar;
+import com.aca.coc.external.coc.clan.domain.player.Player;
+import com.aca.coc.external.coc.config.ClashOfClanConfig;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestClient;
 
 @Service
 @RequiredArgsConstructor
-public class ClanApiServiceImpl implements open.api.coc.external.coc.clan.ClanApiService {
+public class ClanApiServiceImpl implements com.aca.coc.external.coc.clan.ClanApiService {
 
     private final ClashOfClanConfig clashOfClanConfig;
 

@@ -1,7 +1,7 @@
-package open.api.coc.clans.database.repository.clan;
+package com.aca.coc.clans.db.repository.clan;
 
 import java.util.List;
-import open.api.coc.clans.database.entity.clan.ClanEntity;
+import com.aca.coc.clans.db.entity.clan.ClanEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

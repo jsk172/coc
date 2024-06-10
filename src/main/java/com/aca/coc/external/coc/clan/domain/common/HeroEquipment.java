@@ -1,4 +1,4 @@
-package open.api.coc.external.coc.clan.domain.common;
+package com.aca.coc.external.coc.clan.domain.common;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

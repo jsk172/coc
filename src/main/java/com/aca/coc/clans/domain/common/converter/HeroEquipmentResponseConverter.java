@@ -1,8 +1,8 @@
-package open.api.coc.clans.domain.common.converter;
+package com.aca.coc.clans.domain.common.converter;
 
-import open.api.coc.clans.domain.common.HeroEquipmentResponse;
-import open.api.coc.external.coc.clan.domain.common.HeroEquipment;
-import open.api.coc.external.coc.config.HeroEquipmentConfig;
+import com.aca.coc.clans.domain.common.HeroEquipmentResponse;
+import com.aca.coc.external.coc.clan.domain.common.HeroEquipment;
+import com.aca.coc.external.coc.config.HeroEquipmentConfig;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
 

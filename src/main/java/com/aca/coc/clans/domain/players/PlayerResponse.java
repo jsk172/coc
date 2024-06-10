@@ -1,12 +1,12 @@
-package open.api.coc.clans.domain.players;
+package com.aca.coc.clans.domain.players;
 
 import java.util.List;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
-import open.api.coc.clans.domain.common.HeroEquipmentResponse;
-import open.api.coc.clans.domain.common.HeroResponse;
-import open.api.coc.clans.domain.common.TroopsResponse;
+import com.aca.coc.clans.domain.common.HeroEquipmentResponse;
+import com.aca.coc.clans.domain.common.HeroResponse;
+import com.aca.coc.clans.domain.common.TroopsResponse;
 
 @Getter
 @Builder

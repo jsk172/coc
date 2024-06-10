@@ -5,10 +5,10 @@ import java.util.Map;
 
 import com.aca.coc.clans.service.ClansService;
 import lombok.RequiredArgsConstructor;
-import open.api.coc.clans.domain.clans.ClanCapitalRaidSeasonResponse;
-import open.api.coc.clans.domain.clans.ClanCurrentWarRes;
-import open.api.coc.clans.domain.clans.ClanMemberListRes;
-import open.api.coc.clans.domain.clans.ClanRes;
+import com.aca.coc.clans.domain.clans.ClanCapitalRaidSeasonResponse;
+import com.aca.coc.clans.domain.clans.ClanCurrentWarRes;
+import com.aca.coc.clans.domain.clans.ClanMemberListRes;
+import com.aca.coc.clans.domain.clans.ClanRes;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

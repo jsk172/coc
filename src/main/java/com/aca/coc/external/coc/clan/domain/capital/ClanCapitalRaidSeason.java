@@ -1,4 +1,4 @@
-package open.api.coc.external.coc.clan.domain.capital;
+package com.aca.coc.external.coc.clan.domain.capital;
 
 import java.util.ArrayList;
 import java.util.List;

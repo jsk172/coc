@@ -1,8 +1,8 @@
-package open.api.coc.clans.database.entity.player.converter;
+package com.aca.coc.clans.db.entity.player.converter;
 
-import open.api.coc.clans.database.entity.player.PlayerEntity;
-import open.api.coc.clans.database.entity.player.common.WarPreferenceType;
-import open.api.coc.external.coc.clan.domain.player.Player;
+import com.aca.coc.clans.db.entity.player.PlayerEntity;
+import com.aca.coc.clans.db.entity.player.common.WarPreferenceType;
+import com.aca.coc.external.coc.clan.domain.player.Player;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.lang.NonNull;
 import org.springframework.stereotype.Component;

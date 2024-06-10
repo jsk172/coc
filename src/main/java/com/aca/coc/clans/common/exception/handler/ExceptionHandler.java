@@ -1,7 +1,7 @@
 package com.aca.coc.clans.common.exception.handler;
 
-import open.api.coc.clans.common.ExceptionCode;
-import open.api.coc.clans.common.exception.CustomRuntimeException;
+import com.aca.coc.clans.common.ExceptionCode;
+import com.aca.coc.clans.common.exception.CustomRuntimeException;
 
 public class ExceptionHandler {
 

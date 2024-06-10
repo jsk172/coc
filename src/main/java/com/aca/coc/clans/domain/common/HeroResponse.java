@@ -1,4 +1,4 @@
-package open.api.coc.clans.domain.common;
+package com.aca.coc.clans.domain.common;
 
 import java.util.List;
 import lombok.AllArgsConstructor;

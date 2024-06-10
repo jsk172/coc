@@ -1,7 +1,7 @@
-package open.api.coc.clans.domain.clans.converter;
+package com.aca.coc.clans.domain.clans.converter;
 
-import open.api.coc.clans.domain.clans.ClanWarAttackRes;
-import open.api.coc.external.coc.clan.domain.clan.ClanWarAttack;
+import com.aca.coc.clans.domain.clans.ClanWarAttackRes;
+import com.aca.coc.external.coc.clan.domain.clan.ClanWarAttack;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
 

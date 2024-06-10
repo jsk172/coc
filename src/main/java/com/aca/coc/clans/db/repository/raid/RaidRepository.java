@@ -1,9 +1,9 @@
-package open.api.coc.clans.database.repository.raid;
+package com.aca.coc.clans.db.repository.raid;
 
 import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
-import open.api.coc.clans.database.entity.raid.RaidEntity;
+import com.aca.coc.clans.db.entity.raid.RaidEntity;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

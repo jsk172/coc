@@ -1,4 +1,4 @@
-package open.api.coc.clans.database.entity.raid;
+package com.aca.coc.clans.db.entity.raid;
 
 import static jakarta.persistence.FetchType.LAZY;
 

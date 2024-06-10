@@ -1,7 +1,7 @@
-package open.api.coc.clans.domain.clans;
+package com.aca.coc.clans.domain.clans;
 
 import lombok.Getter;
-import open.api.coc.clans.common.Clan;
+import com.aca.coc.clans.common.Clan;
 
 @Getter
 public class ClanCapitalAttackerRes {

@@ -1,11 +1,11 @@
-package open.api.coc.external.coc.clan.domain.common;
+package com.aca.coc.external.coc.clan.domain.common;
 
-import static open.api.coc.clans.common.exception.handler.ExceptionHandler.createNotFoundException;
+import static com.aca.coc.clans.common.exception.handler.ExceptionHandler.createNotFoundException;
 
 import java.util.Arrays;
 import java.util.Objects;
 import lombok.Getter;
-import open.api.coc.clans.common.exception.CustomRuntimeException;
+import com.aca.coc.clans.common.exception.CustomRuntimeException;
 
 @Getter
 public enum Pet {
