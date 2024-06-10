@@ -1,0 +1,469 @@
+.search {
+  margin-bottom: 10px;
+}
+.search-result {
+  .card {
+    margin: 0;
+  }
+
+  .card.empty {
+
+    .text-title {
+      text-align: center;
+    }
+  }
+}
+
+.player-search-result {
+  .card {
+    margin: 5px 0;
+    border-radius: 10px;
+    width: unset;
+    padding: 10px;
+
+    .text-title {
+      font-size: 0.9em;
+    }
+  }
+}
+
+.card-basic {
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.player-wrapper {
+  padding: 10px 0;
+  position: relative;
+  min-height: 300px;
+}
+
+.player-card {
+
+  .caption {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .player-info:last-child {
+    border-bottom: unset;
+  }
+
+  .player-info {
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #dadada;
+
+    .layout-left, .layout-right {
+      display: flex;
+      align-items: center;
+    }
+
+    .player-info-item:not(:first-child) {
+      margin: 0 5px;
+    }
+
+    .player-info-item {
+
+      .info {
+        display: flex;
+        align-items: center;
+      }
+
+      .big-text {
+        font-size: 10px;
+      }
+      .regular-text {
+        font-size: 8px;
+      }
+      .small-text {
+        font-size: 6px;
+      }
+    }
+  }
+}
+
+.support-area {
+  margin-top: 5px;
+  padding: 10px 0;
+  border-top: 1px solid gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  .info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button-area {
+    display: flex;
+    align-items: center;
+  }
+
+  .regular-text {
+    margin-left: 5px;
+    font-size: 12px;
+  }
+
+  .small-text {
+    font-size: 10px;
+  }
+}
+
+.manager-button-area {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+
+  .button-chip:not(:first-child) {
+    margin-left: 5px;
+  }
+
+  .button-chip {
+    font-size: 0.7em;
+  }
+}
+
+.player-list {
+
+  .not-joined {
+    color: red;
+  }
+}
+
+.assigned-player-form {
+  margin-top: 5px;
+}
+
+.clan-manager {
+  position: relative;
+  padding: 10px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 320px) {
+  .clan-manager {
+    width: 270px;
+  }
+}
+
+.clan-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  position: relative;
+  margin: 5px;
+  width: 270px;
+  padding: 5px;
+  background: #f5f5f5;
+  overflow: visible;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.clan-badge {
+  width: 55px;
+  height: 55px;
+}
+
+.clan-war-league-badge {
+  width: 25px;
+  height: 25px;
+}
+
+.capital-league-badge {
+  width: 25px;
+  height: 25px;
+}
+
+.title {
+  margin-left: 5px;
+}
+
+.card-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+}
+
+.card-footer.support {
+  justify-content: flex-start;
+}
+
+/*Text*/
+.text-title {
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+  font-size: 1.2em;
+}
+
+.text-body {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: .9em;
+  padding: 10px 0;
+
+  .description {
+    white-space: pre-wrap;
+  }
+}
+
+/*Button*/
+.card-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+
+  .chip {
+    font-size: 10px;
+    background-color: #a6ffe1;
+  }
+}
+
+.card-button:not(:first-child) {
+  margin-left: 2px;
+}
+
+.btn-add, .btn-remove {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.btn-remove-member {
+  margin-left: 5px;
+}
+
+.chip {
+  display: flex;
+  align-items: center;
+  margin: 3px;
+  font-size: 12px;
+  font-weight: unset;
+}
+
+.fa-square-plus:before {
+  font-size: 30px;
+}
+
+.fa-rectangle-xmark:before {
+  font-size: 30px;
+}
+
+.icon.trophies {
+  width: 15px;
+  height: 15px;
+}
+
+.chip.clan-label {
+  background-color: unset;
+}
+
+.icon.label-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.icon.icon-clan-capital {
+  width: 25px;
+  height: 25px;
+}
+
+/** filter css */
+.radio-group-wrapper {
+  width: 270px;
+  height: 60px;
+  background-color: antiquewhite;
+  border-radius: 40px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.041);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+  .radio-group {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    background-color: transparent;
+  }
+
+  .input-radio {
+    display: none;
+  }
+
+  .radio-item i.icon {
+    width: 35px;
+    height: 35px;
+    opacity: 0.8;
+    cursor: pointer;
+    padding: 13px 20px;
+    transition: 0.2s;
+  }
+
+  .radio-item i.icon:hover {
+    transition: 0.1s;
+    position: relative;
+    margin-top: -2px;
+    opacity: 1;
+  }
+
+  .input-radio:checked + label .radio-item i.icon {
+    transition: 0.1s;
+    position: relative;
+    margin-top: -2px;
+    opacity: 1;
+  }
+
+}
+
+.form-button-area {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  .button-chip:not(:first-child) {
+    margin-left: 3px;
+  }
+}
+
+@media (max-width: 400px) {
+  .form-button-area {
+    padding-right: 0;
+
+    .button-chip {
+      font-size: 11px;
+    }
+  }
+}
+
+.form-upload-area {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.assigned-player-upload:not(:first-child) {
+  margin-left: 5px;
+}
+
+@media (max-width: 320px) {
+  .assigned-player-upload:not(:first-child) {
+    margin-left: 0;
+  }
+}
+
+.assigned-player-upload {
+  margin-top: 10px;
+
+  .assigned-player-upload-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+
+.input-month {
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 110px;
+  padding: 5px;
+  background-position: top 45% right 5px;
+}
+
+.button-chip {
+  i {
+    margin-left: 3px;
+    transition: 0.3s;
+  }
+  i:before {
+    line-height: 1.5;
+  }
+}
+
+.button-chip.expand i {
+  transition: 0.3s;
+  transform: rotate(180deg);
+}
+
+.label-change-rank {
+  i {
+    margin-right: 3px;
+  }
+  i.fa-sort-up {
+    margin-top: 3px;
+  }
+  i.fa-sort-down {
+    margin-bottom: 3px;
+  }
+}
+
+.description {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.assigned-league .button-chip {
+  background-color: red;
+}
+
+.table-caption.league {
+  border: 1px solid red;
+  border-left: 3px solid red;
+  background-color: red;
+}
+
+.table {
+  border-color: green;
+}
+
+.table.league {
+  border-color: red;
+}
+
+.support-filter {
+  background-color: coral;
+  margin-top: 5px;
+  border-radius: 0.5rem;
+}
+
+.tag-hero-level {
+  .icon.trophies {
+    margin-right: 3px;
+  }
+}
+
+.player-filter-wrapper {
+  height: fit-content;
+  background-color: yellowgreen;
+  border-radius: 10px;
+}
+
+.player-filter {
+  font-size: 8px;
+}

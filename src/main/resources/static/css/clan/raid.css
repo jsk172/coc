@@ -1,0 +1,232 @@
+.loader-circle {
+  top: 65%;
+}
+
+.capital-raid {
+  height: 100%;
+  padding: 10px 0;
+}
+
+.card:not(:first-child) {
+  margin-top: 5px;
+}
+
+.card.caption {
+  min-height: unset;
+}
+
+.card {
+  position: relative;
+  width: 270px;
+  min-height: 130px;
+  border-radius: 15px;
+  background: #1b233d;
+  padding: 5px;
+  overflow: hidden;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 20px 0;
+  transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card .bottom-section,.footer-section {
+  margin-top: 5px;
+  padding: 5px 0;
+
+  .title {
+    display: block;
+    font-size: 17px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+
+  .sub-title {
+    margin-top: 5px;
+    display: block;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+
+  .row.support-area {
+    display: flex;
+    justify-content: right;
+
+    .toggle-button {
+      width: 70px;
+      height: 35px;
+
+      .knobs::before {
+        width: 25px;
+      }
+
+      .checkbox:checked + .knobs:before {
+        left: 32px;
+      }
+    }
+  }
+
+  .row.loader {
+    margin-top: 35px;
+  }
+
+  .row.error {
+    margin-top: 25px;
+    justify-content: center;
+  }
+
+  .row.header {
+    align-items: center;
+    justify-content: space-between;
+
+    .league-icon {
+      height: 35px;
+    }
+
+    .clan-icon {
+      height: 35px;
+      display: flex;
+    }
+
+    .title {
+      margin-left: 15px;
+    }
+
+    .state {
+      cursor: unset;
+    }
+
+    .layout-right {
+      display: flex;
+
+      .button-chip:not(:first-child) {
+        margin-left: 3px;
+      }
+    }
+  }
+
+  .row {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .item {
+      flex: 30%;
+      text-align: center;
+      padding: 5px;
+      color: rgba(170, 222, 243, 0.721);
+
+      .league-icon {
+        height: 40px;
+      }
+
+      .big-text {
+        font-size: 14px;
+        display: block;
+      }
+
+      .regular-text {
+        font-size: 12px;
+      }
+
+      .small-text {
+        font-size: 9px;
+      }
+    }
+
+    .item:not(:first-child) {
+      border-left: 1px solid rgba(255, 255, 255, 0.126);
+    }
+  }
+
+}
+
+.card:not(.dim) {
+  .click-icon {
+    cursor: pointer;
+  }
+
+  .click-icon:hover {
+    transform: scale(1.05);
+    color: #fff;
+  }
+}
+
+.footer-section {
+  margin-top: 0;
+  padding: 0;
+
+  .members {
+    display: none;
+    padding: 0;
+    height: 100px;
+    overflow-y: auto;
+    scrollbar-width: none;
+    border: 1px solid;
+    border-radius: 5px;
+
+    .record {
+      display: flex;
+      align-items: center;
+    }
+
+    .record:not(:first-child) {
+      margin-top: 3px;
+    }
+
+    .record.un-attacked {
+
+      .regular-text {
+        color: red !important;
+      }
+
+    }
+
+    .record.demoted-attacked, .record.Warning {
+      .regular-text {
+        color: yellow;
+      }
+    }
+
+    .record.empty-un-attacked {
+      display: flex;
+      justify-content: center;
+    }
+
+    .record.empty-violation {
+      display: flex;
+      justify-content: center;
+      .regular-text {
+        color: yellow;
+      }
+    }
+  }
+
+}
+
+.footer-section.expand {
+
+  .members {
+    display: flex;
+    flex-direction: column;
+    padding: 0 !important;
+
+    .record {
+      .item:first-child {
+        flex: 70%;
+      }
+    }
+  }
+
+}
+
+i {
+  transition: 0.3s;
+}
+
+.expand i {
+  transition: 0.3s;
+  transform: rotate(180deg);
+}

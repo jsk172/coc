@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --button-background-color: #73685d;
+  --button-hover-background-color: #b9a796;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1em;
+  font-family: 'Poppins', sans-serif;
+  word-break: break-all;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body::before {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  z-index: -1;
+
+  /* load images */
+  content:
+      url(/static/images/hero/Barbarian_King.png);
+      url(/static/images/hero/Archer_Queen.png);
+      url(/static/images/hero/Grand_Warden.png);
+      url(/static/images/hero/Royal_Champion.png);
+
+      url(/static/images/hero/equipment/Archer_Puppet.png);
+      url(/static/images/hero/equipment/Barbarian_Puppet.png);
+      url(/static/images/hero/equipment/Earthquake_Boots.png);
+      url(/static/images/hero/equipment/Eternal_Tome.png);
+      url(/static/images/hero/equipment/Fireball.png);
+      url(/static/images/hero/equipment/Frozen_Arrow.png);
+      url(/static/images/hero/equipment/Giant_Arrow.png);
+      url(/static/images/hero/equipment/Giant_Gauntlet.png);
+      url(/static/images/hero/equipment/Haste_Vial.png);
+      url(/static/images/hero/equipment/Healer_Puppet.png);
+      url(/static/images/hero/equipment/Healing_Tome.png);
+      url(/static/images/hero/equipment/Hog_Rider_Puppet.png);
+      url(/static/images/hero/equipment/Invisibility_Vial.png);
+      url(/static/images/hero/equipment/Life_Gem.png);
+      url(/static/images/hero/equipment/Rage_Gem.png);
+      url(/static/images/hero/equipment/Rage_Vial.png);
+      url(/static/images/hero/equipment/Royal_Gem.png);
+      url(/static/images/hero/equipment/Seeking_Shield.png);
+      url(/static/images/hero/equipment/Vampstache.png);
+      url(/static/images/hero/equipment/Spiky_Ball.png);
+
+      url(/static/images/etc/trophies.png);
+      url(/static/images/etc/max_level.png);
+      url(/static/images/etc/xp.png);
+
+      url(/static/images/pets/Lassi.png);
+      url(/static/images/pets/Mighty_Yak.png);
+      url(/static/images/pets/Electro_Owl.png);
+      url(/static/images/pets/Phoenix.png);
+      url(/static/images/pets/Unicorn.png);
+      url(/static/images/pets/Frosty.png);
+      url(/static/images/pets/Poison_Lizard.png);
+      url(/static/images/pets/Diggy.png);
+      url(/static/images/pets/Spirit_Fox.png);
+      url(/static/images/pets/Angry_Jelly.png);
+
+      url(/static/images/townhall/16.png);
+      url(/static/images/townhall/15.png);
+      url(/static/images/townhall/14.png);
+      url(/static/images/townhall/13.png);
+      url(/static/images/townhall/12.png);
+      url(/static/images/townhall/11.png);
+      url(/static/images/townhall/10.png);
+      url(/static/images/townhall/9.png);
+      url(/static/images/townhall/8.png);
+      url(/static/images/townhall/7.png);
+      url(/static/images/townhall/6.png);
+      url(/static/images/townhall/5.png);
+      url(/static/images/townhall/4.png);
+      url(/static/images/townhall/3.png);
+      url(/static/images/townhall/2.png);
+      url(/static/images/townhall/1.png);;
+
+      url(/static/images/siegemachine/Wall_Wrecker.png);
+      url(/static/images/siegemachine/Battle_Blimp.png);
+      url(/static/images/siegemachine/Stone_Slammer.png);
+      url(/static/images/siegemachine/Siege_Barracks.png);
+      url(/static/images/siegemachine/Log_Launcher.png);
+      url(/static/images/siegemachine/Flame_Flinger.png);
+      url(/static/images/siegemachine/Battle_Drill.png);
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  background-image: url("/static/images/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.level-icon {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  font-weight: bold;
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/static/images/etc/max_level.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  color: black;
+  filter: drop-shadow(0 0 0 red) invert(95%);
+}
+
+.level-icon.is-max {
+  color: #fff;
+  filter: unset;
+}
+
+.display-none {
+  display: none !important;
+}
+
+.opacity-01 {
+  opacity: 0.1;
+}
+
+.dim {
+  opacity: 0.8;
+}
+
+.disabled {
+  opacity: 0.5;
+}
+
+.color-black {
+  color: black !important;
+}
+
+.color-white {
+  color: white !important;
+}
+
+.color-yellow {
+  color: yellow !important;
+}
+.color-green {
+  color: green !important;
+}
+.color-red {
+  color: red !important;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+.justify-content-center {
+  justify-content: center !important;
+}
+
+.justify-content-right {
+  justify-content: right !important;
+}
+
+.chip {
+  width: fit-content;
+  font-size: 0.5rem;
+  font-weight: bold;
+  word-break: keep-all;
+  border: var(--default-border);
+  padding: 3px 5px;
+  border-radius: 15px;
+  background: antiquewhite;
+}
+
+.button-chip {
+  width: fit-content;
+  font-size: 0.8rem;
+  font-weight: bold;
+  word-break: keep-all;
+  border: var(--default-border);
+  padding: 3px 15px;
+  border-radius: 15px;
+  background: #5c5c5c;
+  color: white;
+  cursor: pointer;
+}
+
+.chip-label {
+  margin-left: 5px;
+  padding: 0 2px;
+}
+
+.bg-lightgray {
+  background-color: lightgray;
+}
+
+.bg-black {
+  background-color: black;
+  color: white;
+}
+
+.bg-pink {
+  background-color: #e87186;
+  color: white;
+}
+
+.bg-gold {
+  background-color: #a18700;
+  color: #ffef9c;
+}
+
+.bg-forestgreen {
+  background-color: forestgreen;
+  color: white;
+}
+
+.bg-red {
+  background-color: red;
+  color: white;
+}
+
+.bg-crimson {
+  background-color: crimson;
+  color: white;
+}
+
+.bg-orange {
+  background-color: #ff9800;
+  color: white;
+}
+
+.bg-blue {
+  background-color: #4687f0;
+  color: white;
+}
+
+.bg-green {
+  background-color: green;
+  color: white;
+}
+
+.search {
+  --input-line: #7f7f7f;
+  --input-text-color: #7f7f7f;
+  --input-text-hover-color: transparent;
+  --input-border-color: #c0c0c0;
+  --input-border-hover-color: #b4b4b4;
+  --input-bg-color: #ffffff;
+  --search-max-width: 270px;
+  --search-min-width: 150px;
+  --border-radius: 5px;
+  --transition-cubic-bezier: 150ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.search-box {
+  max-width: var(--search-max-width);
+  min-width: var(--search-min-width);
+  height: 35px;
+  border: 1px solid var(--input-border-color);
+  border-radius: var(--border-radius);
+  padding: 5px 15px;
+  background: var(--input-bg-color);
+  transition: var(--transition-cubic-bezier);
+}
+
+.search-box:hover {
+  border-color: var(--input-border-hover-color);
+}
+
+/*Section input*/
+.search-field {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  left: -5px;
+  border: 0;
+}
+
+.input {
+  width: calc(100% - 29px);
+  height: 100%;
+  border: 0;
+  border-color: transparent;
+  font-size: 12px;
+  padding-right: 0px;
+  color: var(--input-line);
+  background: var(--input-bg-color);
+  border-right: 2px solid var(--input-border-color);
+  outline: none;
+}
+
+.input::-webkit-input-placeholder {
+  color: var(--input-text-color);
+}
+
+.input::-moz-input-placeholder {
+  color: var(--input-text-color);
+}
+
+.input::-ms-input-placeholder {
+  color: var(--input-text-color);
+}
+
+.input:focus::-webkit-input-placeholder {
+  color: var(--input-text-hover-color);
+}
+
+.input:focus::-moz-input-placeholder {
+  color: var(--input-text-hover-color);
+}
+
+.input:focus::-ms-input-placeholder {
+  color: var(--input-text-hover-color);
+}
+
+/*Search button*/
+.search-box-icon {
+  width: 52px;
+  height: 35px;
+  position: absolute;
+  top: -6px;
+  right: -21px;
+  background: transparent;
+  border-bottom-right-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+  transition: var(--transition-cubic-bezier);
+}
+
+.btn-icon-content {
+  width: 52px;
+  height: 35px;
+  top: -6px;
+  right: -21px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  border-bottom-right-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+  transition: var(--transition-cubic-bezier);
+  opacity: .4;
+}
+
+.search-icon {
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  top: 7px;
+  right: 15px;
+}
+
+.w270 {
+  width: 270px;
+}
+
+/* tippy theme custom */
+.tippy-box[data-theme~='darkgray'] {
+  background-color: rgba(87, 87, 87, 0.9);
+  color: white;
+}
+
+
+/** image icon */
+.icon-clock {
+  width: 36px;
+  height: 36px;
+  background-image: url("/static/images/etc/clock.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-sword {
+  width: 36px;
+  height: 36px;
+  background-image: url("/static/images/etc/sword.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-damage {
+  width: 36px;
+  height: 36px;
+  background-image: url("/static/images/etc/damage.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-clan-war {
+  width: 35px;
+  height: 35px;
+  background-image: url("/static/images/etc/ClanWars.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-clan-war-league {
+  width: 35px;
+  height: 35px;
+  background-image: url("/static/images/etc/WarLeagues.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-clan-capital {
+  width: 35px;
+  height: 35px;
+  background-image: url("/static/images/etc/CapitalGold.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon.trophies {
+  width: 35px;
+  height: 35px;
+  background-image: url(/static/images/etc/trophies.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+
+
+.file-upload-form {
+  width: 185px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border: 1px dashed #cacaca;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 48px 35px -48px rgba(0, 0, 0, 0.1);
+
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+      height: 30px;
+      fill: rgba(75, 85, 99, 1);
+    }
+  }
+
+  .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    span {
+      font-size: 14px;
+      font-weight: 400;
+      color: rgba(75, 85, 99, 1);
+    }
+  }
+
+  input {
+    display: none;
+  }
+}
+
+.table {
+  width: 100%;
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+
+  .table-caption {
+    border: 1px solid green;
+    border-left: 3px solid green;
+    background-color: green;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5px;
+    text-align: left;
+    color: white;
+    padding: 5px 5px 5px 10px;
+  }
+
+  .table-tbody {
+    position: relative;
+  }
+
+
+  .table-tr {
+
+    .table-th, .table-td {
+      padding: 5px;
+    }
+
+    .table-th {
+    }
+
+    .table-td {
+      text-align: center;
+    }
+  }
+
+}
+
+.table.vertical {
+
+
+  .table-tr {
+
+    .table-th {
+      width: 20%;
+    }
+
+    .table-td {
+      width: 60%;
+      text-align: left;
+    }
+  }
+
+}
